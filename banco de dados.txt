@@ -1,0 +1,28 @@
+CREATE DATABASE APS
+
+USE APS
+
+CREATE TABLE Objeto(
+	[idObj] [int] IDENTITY(1,1) NOT NULL,
+	[nmObj] [varchar](50) NULL,
+	[dsObj] [varchar](200) NULL
+)
+
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (1,'Papel','3 meses')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (2,'Chiclete','10 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (3,'Cigarro','de 10 a 20 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (4,'Couro','30 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (5,'Saco plástico','de 30 a 40 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (6,'Lata de alumínio','mais de 100 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (7,'Garrafa PET','mais de 100 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (8,'Vidro','4000 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (9,'Casca de banana','de 2 a 24 meses')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (10,'Papel plastificado','de 1 a 5 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (11,'Meias de lã','de 10 a 20 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (12,'Madeira pintada','de 13 a 14 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (13,'Fralda descartável','6000 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (14,'Nylon','de 3 a 30 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (15,'Metal','mais de 100 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (16,'Borracha','Indeterminado')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (17,'Alumínio','de 80 a 1000 anos')
+INSERT INTO Objeto ([nmObj] ,[dsObj]) VALUES (18,'Palito de fósforo','6 meses')
